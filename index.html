@@ -1,0 +1,85 @@
+<!-- Malek Amr Salem - 225110143 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Malek Amr Salem - Profile</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Malek Amr Salem</h1>
+        <nav class="top-bar">
+            <span class="brand-name">Malek Amr Salem</span>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#cards">Skills &amp; Hobbies</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about" class="profile-section">
+            <img src="images/me.jpg" alt="Photo of Malek Amr Salem wearing a black suit" class="profile-photo">
+            <div class="about-columns">
+                <div class="about-col">
+                    <h2>About Me</h2>
+                    <p>Hello! I am a Computer Science student at New Mansoura University (Faculty of Computer Science &amp; Engineering). I enjoy building clean web pages and learning how software works from the ground up.</p>
+                </div>
+                <div class="about-col">
+                    <h2>Current Focus</h2>
+                    <p>Right now I am practicing front-end web development using HTML, CSS, and JavaScript in Field Training I, focusing on clean layouts and interactive pages.</p>
+                </div>
+            </div>
+            <button id="theme-btn" type="button">Switch to Dark Mode</button>
+        </section>
+
+        <section id="cards" class="cards-section">
+            <h2>Skills &amp; Interests</h2>
+            <div class="card-row">
+                <div class="card">
+                    <h3>Web Basics</h3>
+                    <p>Writing structured HTML5 pages, styling layouts with Flexbox and CSS variables, and adding interactivity with JavaScript.</p>
+                </div>
+                <div class="card">
+                    <h3>Problem Solving</h3>
+                    <p>Breaking down programming tasks into simple steps, debugging code, and practicing algorithms in Computer Science courses.</p>
+                </div>
+                <div class="card">
+                    <h3>Hobbies</h3>
+                    <p>Exploring new tech tools, hanging out with friends on weekends, and staying active after long study sessions.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="form-section">
+            <h2>Leave a Message</h2>
+            <p id="greeting-text" class="greeting-line">Type your name below to say hello!</p>
+
+            <form id="visitor-form" novalidate>
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email">
+                </div>
+
+                <button type="submit" class="submit-btn">Send</button>
+                <p id="form-feedback" class="feedback-msg"></p>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Malek Amr Salem (ID: 225110143) - New Mansoura University.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
